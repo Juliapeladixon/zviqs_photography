@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+dist/
+
+.env
+.env.*
+!.env.example
+
+# Original photos stay on disk and in Supabase, not in git
+Web/
+
+.DS_Store
+Thumbs.db
+*.log
